@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logout Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to our website!</h1>
+		<nav>
+			<ul>
+				<li><a class="button" href="index logged.html">Home</a></li>
+				<li><a class="button" href="information logged.html">Information</a></li>
+				<li><a class="button" href="contact logged.html">Contact</a></li>
+                <li><a class="button" href="booking logged.html">Booking</a></li>
+				<li><a class="activebutton" href="index.html">Logout</a></li>
+				<hr>
+			</ul>
+		</nav>
+	</header>
+	<div class="leftbox">
+		<h2>Logout Page</h2>
+		<hr>
+	</div>
+	<div class="row">
+		<div class="leftbox">
+			<form action="action_page.php" method="post">
+                <div class="container">
+					<label for="uname"><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="uname" required>
+				
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+					<nav>
+						<ul>
+							<li><a class="loginbutton" href="index logged.html">Login</a></li>
+						</ul>
+					</nav>
+                </div>
+              </form>
+		</div>
+		<div class="rightbox">
+			<h2>Holiday Parks</h2>
+			<img class="parkslogo" src="holidayparks.png" alt="Holiday Parks Logo">
+		</div>
+		<div class="leftbox">
+			<h2>Newsletter</h2>
+			<p>Do you want to recieve the lastest news on our Holidaypark? Sign up for out daily newsletter.</p>
+			<form action="action_page.php" method="post">
+                <div class="container">
+					<label for="email"><b>Email</b></label>
+					<input type="text" placeholder="Enter Email" email="email" required>
+				
+                </div>
+              </form>
+		</div>
+	</div>
+	
+</body>
+</html>

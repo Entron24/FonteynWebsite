@@ -1,0 +1,202 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100vh;
+	object-fit: cover;
+	opacity: 0.9;
+}
+
+.navigation {
+	margin-bottom: 20px;
+}
+
+.button {
+	transition-duration: 0.4s;
+	padding: 10px;
+	margin: 2px;
+  }
+
+.activebutton {
+	transition-duration: 0.4s;
+	padding: 10px;
+	margin: 2px;
+	background-color: #73d376;
+	color: white;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid none;
+	border-radius: 5px;
+	margin: 5px;
+  }
+
+.loginbutton {
+	transition-duration: 0.4s;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid none;
+	border-radius: 5px;
+	margin: 5px;
+  }
+
+  .loginbutton:hover {
+	background-color: #73d376;
+	color: white;
+	padding: 10px;
+	margin: 2px;
+  }
+
+.logoutbutton {
+	transition-duration: 0.4s;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid none;
+	border-radius: 5px;
+	margin: 5px;
+  }
+  
+  .logoutbutton:hover {
+	background-color: #e75d59;
+	color: white;
+	padding: 10px;
+	margin: 2px;
+  }
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	height: 100%;
+  }
+
+.leftbox {
+	background-color: #333;
+	float: left;
+	width: 62.5%;
+	color: #fff;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightbox {
+	background-color: #333;
+	float: right;
+	color: #fff;
+	width: 30%;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftbox2 {
+	background-color: #333;
+	float: left;
+	width: 30%;
+	color: #fff;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightbox2 {
+	background-color: #333;
+	float: right;
+	color: #fff;
+	width: 62.5%;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parkslogo {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parksmap {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul {
+	list-style: none;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 10%;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input,
+textarea {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
